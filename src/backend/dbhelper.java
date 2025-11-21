@@ -8,7 +8,7 @@ public class dbhelper {
     public static void bukaKoneksi() {
         if (koneksi == null) {
             try {
-                String url = "jdbc:mysql://localhost:3306/dbperpus";
+                String url = "jdbc:mysql://localhost:3306/db_perpus";
                 String user = "root";
                 String password = "";
                 DriverManager.registerDriver(new com.mysql.cj.jdbc.Driver());
